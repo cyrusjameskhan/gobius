@@ -1,0 +1,69 @@
+{"level":"info","database":"playground.db","time":"2025-05-19T16:38:41.4972191+07:00","message":"using database"}
+{"level":"info","time":"2025-05-19T16:38:41.5211665+07:00","message":"OK   20240603121202_init.sql (1.06ms)\n"}
+{"level":"info","time":"2025-05-19T16:38:41.5211665+07:00","message":"goose: successfully migrated database to version: 20240603121202\n"}
+{"level":"info","time":"2025-05-19T16:38:42.213373+07:00","message":"minimum claim time is 1h2m0s"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","reward":"0","time":"2025-05-19T16:38:45.0198043+07:00","message":"selected strategy model reward"}
+{"level":"info","strategy":"listen","time":"2025-05-19T16:38:45.0233918+07:00","message":"⛏️ GOBIUS MINER STARTED! ⛏️"}
+{"level":"info","gpus":["http://58.224.7.136:30319/predictions"],"time":"2025-05-19T16:38:45.0233918+07:00","message":"initialized GPUs from config"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T16:38:45.0233918+07:00","message":"validating model on gpu(s)"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","cid":"0x1220e0acecb9c6187adc716f2140df8bc05dacfd253cdaa1440d04b9cff60e6babbf","time":"2025-05-19T16:38:48.1157562+07:00","message":"model CID after validation"}
+{"level":"info","gpu":0,"duration":"3.0918453s","time":"2025-05-19T16:38:48.1157562+07:00","message":"GPU validation successful"}
+{"level":"info","average":"3.0918453s","fastest":"3.0918453s","validated":1,"total":1,"time":"2025-05-19T16:38:48.1157562+07:00","message":"GPU validation complete"}
+{"level":"info","version":5,"time":"2025-05-19T16:38:48.4658981+07:00","message":"miner version is up to date"}
+{"level":"info","time":"2025-05-19T16:38:48.4658981+07:00","message":"GPU validation and engine version check passed"}
+{"level":"info","time":"2025-05-19T16:38:48.7825374+07:00","message":"subscribed to new headers"}
+{"level":"warn","strategy":"listen","component":"eventmanager","time":"2025-05-19T16:38:48.7825374+07:00","message":"verification sample rate 0, disabling baseline sampling"}
+{"level":"info","strategy":"listen","time":"2025-05-19T16:38:48.7825374+07:00","message":"starting ListenStrategy..."}
+{"level":"info","time":"2025-05-19T16:38:48.7825374+07:00","message":"🚀 performing validator stake and balance checks"}
+{"level":"info","eth_bal":"0.046647431 Ξ","basetoken_bal":"1.2739586 AIUS","time":"2025-05-19T16:38:49.4836676+07:00","message":"wallet balances of owner account"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","minimum":510.73738540354935,"basetoken_bal":1.2739585580167685,"staked":520.413713196309,"pending_withdraw":0,"time":"2025-05-19T16:38:51.2099283+07:00","message":"validator staked amount"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","time":"2025-05-19T16:38:51.2099283+07:00","message":"✅ staked amount is sufficient"}
+{"level":"info","strategy":"listen","component":"eventmanager","time":"2025-05-19T16:38:51.2104358+07:00","message":"starting event manager..."}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"starting"}
+{"level":"info","time":"2025-05-19T16:38:51.2104358+07:00","message":"started ipfs claim processor with interval 10s"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"starting"}
+{"level":"info","strategy":"listen","component":"eventmanager","time":"2025-05-19T16:38:51.2104358+07:00","message":"event manager started"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"management loop started"}
+{"level":"info","strategy":"listen","workers":1,"time":"2025-05-19T16:38:51.2104358+07:00","message":"starting workers for listen"}
+{"level":"info","strategy":"listen","time":"2025-05-19T16:38:51.2104358+07:00","message":"workers launched"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"management loop started"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"attempting to connect subscription..."}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"attempting to connect subscription..."}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","rate":18446744073709551615,"time":"2025-05-19T16:38:51.2104358+07:00","message":"started solution sampling loop"}
+{"level":"info","time":"2025-05-19T16:38:51.2104358+07:00","message":"running in headless mode; dashboard disabled"}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeTaskSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"started task routing loop"}
+{"level":"info","strategy":"listen","worker":0,"GPU":0,"time":"2025-05-19T16:38:51.2104358+07:00","message":"worker started"}
+{"level":"warn","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","time":"2025-05-19T16:38:51.2104358+07:00","message":"baseline sampling disabled, loop exiting."}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","time":"2025-05-19T16:38:51.2109765+07:00","message":"stopped solution sampling loop"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T16:38:51.8621141+07:00","message":"connection successful"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T16:38:51.8699676+07:00","message":"connection successful"}
+{"level":"info","claims":0,"time":"2025-05-19T16:39:51.2104768+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_price":"2410.2026$","last_base_price":"14.3662$","last_reward":"0","gas_cost":"0.0000$","total_gas_cost":"0.0000$","time":"2025-05-19T16:39:52.9544169+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.366151, min: 14.366151, ema: 14.366151","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T16:39:52.9544169+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T16:39:52.9544169+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T16:39:52.9544169+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T16:39:52.9544169+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.00$","per_day":"0.00$","time":"2025-05-19T16:39:52.9544169+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T16:39:52.9544169+07:00","message":"📈 profit metrics"}
+{"level":"info","strategy":"listen","tx_hash":"0x9b511ac9ec0a169233cb145588f79ee61fa1b3d9e12282ec9ef2db5ce20b9d0c","routine":"decodeTransactionWithCache","time":"2025-05-19T16:39:53.0606621+07:00","message":"initiating decode..."}
+{"level":"info","strategy":"listen","tx_hash":"0x9b511ac9ec0a169233cb145588f79ee61fa1b3d9e12282ec9ef2db5ce20b9d0c","routine":"decodeTransactionWithCache","origin":"bulkSubmitTask","time":"2025-05-19T16:39:53.4093738+07:00","message":"decode successful, params cached"}
+{"level":"info","claims":0,"time":"2025-05-19T16:40:51.2108773+07:00","message":"claims waiting to be processed"}
+{"level":"info","time":"2025-05-19T16:40:51.2108773+07:00","message":"🚀 performing validator stake and balance checks"}
+{"level":"info","eth_price":"2412.0975$","last_base_price":"14.3662$","last_reward":"0","gas_cost":"0.0000$","total_gas_cost":"0.0000$","time":"2025-05-19T16:40:51.8487288+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.366151, min: 14.366151, ema: 14.366151","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T16:40:51.8487288+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T16:40:51.8487288+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T16:40:51.8487288+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T16:40:51.8487288+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.00$","per_day":"0.00$","time":"2025-05-19T16:40:51.8487288+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T16:40:51.8487288+07:00","message":"📈 profit metrics"}
+{"level":"info","eth_bal":"0.046647431 Ξ","basetoken_bal":"1.2739586 AIUS","time":"2025-05-19T16:40:51.9221799+07:00","message":"wallet balances of owner account"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","minimum":510.73738540354935,"basetoken_bal":1.2739585580167685,"staked":520.413713196309,"pending_withdraw":0,"time":"2025-05-19T16:40:53.6535536+07:00","message":"validator staked amount"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","time":"2025-05-19T16:40:53.6535536+07:00","message":"✅ staked amount is sufficient"}
+{"level":"info","claims":0,"time":"2025-05-19T16:41:51.2106888+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_price":"2411.3460$","last_base_price":"14.3662$","last_reward":"0","gas_cost":"0.0000$","total_gas_cost":"0.0000$","time":"2025-05-19T16:41:51.8716034+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.366151, min: 14.366151, ema: 14.366151","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T16:41:51.8716034+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T16:41:51.8716034+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T16:41:51.8716034+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T16:41:51.8716034+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.00$","per_day":"0.00$","time":"2025-05-19T16:41:51.8716034+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T16:41:51.8716034+07:00","message":"📈 profit metrics"}
