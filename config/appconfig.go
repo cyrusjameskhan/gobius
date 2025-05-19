@@ -47,6 +47,15 @@ type AppConfig struct {
 	ML         ML         `json:"ml"`
 	IPFS       IPFS       `json:"ipfs"`
 	BaseConfig BaseConfig `json:"baseconfig"`
+
+	ParaswapCacheTTL string `json:"paraswap_cache_ttl"`
+	ParaswapTimeout  string `json:"paraswap_timeout"`
+
+	// Price Oracle Settings
+	PriceOracleType     string `json:"price_oracle_type"`      // "paraswap" or "coinmarketcap"
+	PriceOracleCacheTTL string `json:"price_oracle_cache_ttl"` // e.g. "5m", "1h"
+	PriceOracleTimeout  string `json:"price_oracle_timeout"`   // e.g. "10s", "30s"
+	CoinMarketCapAPIKey string `json:"coinmarketcap_api_key"`  // API key for CoinMarketCap
 }
 
 type TelegramBot struct {
@@ -410,7 +419,6 @@ func NewAppConfig(testnetType int) AppConfig {
 			MaxClaimQueue:            0, // 0 disables this check
 		},
 		Miner: SolverConfig{
-			Enabled:                 false,
 			WaitForTasksOnShutdown:  false,
 			CommitmentBatch:         BatchConfig{MinBatchSize: 10, MaxBatchSize: 10, NumberOfBatches: 1},
 			SolutionBatch:           BatchConfig{MinBatchSize: 10, MaxBatchSize: 10, NumberOfBatches: 1},
@@ -425,7 +433,8 @@ func NewAppConfig(testnetType int) AppConfig {
 			ErrorMaxRetries:         5,
 			ErrorBackoffTime:        425,
 			ErrorBackofMultiplier:   1.5,
-			MetricsSampleRate:       "10s",
+			MetricsSampleRate:       "60s",
+			EnableGasEstimationMode: true,
 		},
 		Blockchain: Blockchain{
 			PrivateKey: "",
@@ -453,6 +462,15 @@ func NewAppConfig(testnetType int) AppConfig {
 			OracleURL:      "",
 			Timeout:        "10s",
 		},
+
+		// Default Paraswap settings
+		ParaswapCacheTTL: "5m",
+		ParaswapTimeout:  "30s",
+
+		// Default Price Oracle settings
+		PriceOracleType:     "paraswap", // Default to paraswap for backward compatibility
+		PriceOracleCacheTTL: "5m",
+		PriceOracleTimeout:  "10s",
 	}
 
 	data := baseConfigJsonDataMainnet
