@@ -50,6 +50,12 @@ type AppConfig struct {
 
 	ParaswapCacheTTL string `json:"paraswap_cache_ttl"`
 	ParaswapTimeout  string `json:"paraswap_timeout"`
+
+	// Price Oracle Settings
+	PriceOracleType     string `json:"price_oracle_type"`      // "paraswap" or "coinmarketcap"
+	PriceOracleCacheTTL string `json:"price_oracle_cache_ttl"` // e.g. "5m", "1h"
+	PriceOracleTimeout  string `json:"price_oracle_timeout"`   // e.g. "10s", "30s"
+	CoinMarketCapAPIKey string `json:"coinmarketcap_api_key"`  // API key for CoinMarketCap
 }
 
 type TelegramBot struct {

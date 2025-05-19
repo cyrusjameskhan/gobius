@@ -1,0 +1,148 @@
+{"level":"fatal","error":"open : The system cannot find the path specified.","time":"2025-05-19T15:47:36.3375361+07:00","message":"error connecting to RPC: "}
+{"level":"info","database":"playground.db","time":"2025-05-19T15:48:33.5515442+07:00","message":"using database"}
+{"level":"info","time":"2025-05-19T15:48:33.5666789+07:00","message":"OK   20240603121202_init.sql (1.09ms)\n"}
+{"level":"info","time":"2025-05-19T15:48:33.5666789+07:00","message":"goose: successfully migrated database to version: 20240603121202\n"}
+{"level":"info","time":"2025-05-19T15:48:34.2388185+07:00","message":"minimum claim time is 1h2m0s"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","reward":"0","time":"2025-05-19T15:48:36.9834026+07:00","message":"selected strategy model reward"}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:48:36.9834026+07:00","message":"⛏️ GOBIUS MINER STARTED! ⛏️"}
+{"level":"info","gpus":["http://58.224.7.136:30319/predictions"],"time":"2025-05-19T15:48:36.9834026+07:00","message":"initialized GPUs from config"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:48:36.9839275+07:00","message":"validating model on gpu(s)"}
+{"level":"warn","sleep_duration":1000,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:48:38.8536433+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":1500,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:48:39.8546602+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":2250,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:48:41.3558809+07:00","message":"retry request failed, retrying"}
+{"level":"error","tries":3,"time":"2025-05-19T15:48:43.606104+07:00","message":"retry request failed after multiple attempts"}
+{"level":"error","error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","gpu":0,"url":"http://58.224.7.136:30319/predictions","time":"2025-05-19T15:48:43.606104+07:00","message":"error validating the model on GPU"}
+{"level":"error","time":"2025-05-19T15:48:43.606104+07:00","message":"all GPUs failed validation"}
+{"level":"fatal","error":"all configured GPUs failed validation for model 0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:48:43.606104+07:00","message":"GPU validation failed"}
+{"level":"info","database":"playground.db","time":"2025-05-19T15:49:13.3699853+07:00","message":"using database"}
+{"level":"info","time":"2025-05-19T15:49:13.3740832+07:00","message":"goose: no migrations to run. current version: 20240603121202\n"}
+{"level":"info","time":"2025-05-19T15:49:14.0571709+07:00","message":"minimum claim time is 1h2m0s"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","reward":"0","time":"2025-05-19T15:49:16.8063628+07:00","message":"selected strategy model reward"}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:49:16.8063628+07:00","message":"⛏️ GOBIUS MINER STARTED! ⛏️"}
+{"level":"info","gpus":["http://58.224.7.136:30319/predictions"],"time":"2025-05-19T15:49:16.8063628+07:00","message":"initialized GPUs from config"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:49:16.8063628+07:00","message":"validating model on gpu(s)"}
+{"level":"warn","sleep_duration":1000,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:49:18.6726238+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":1500,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:49:19.6743037+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":2250,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:49:21.1747744+07:00","message":"retry request failed, retrying"}
+{"level":"error","tries":3,"time":"2025-05-19T15:49:23.4250697+07:00","message":"retry request failed after multiple attempts"}
+{"level":"error","error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","gpu":0,"url":"http://58.224.7.136:30319/predictions","time":"2025-05-19T15:49:23.4250697+07:00","message":"error validating the model on GPU"}
+{"level":"error","time":"2025-05-19T15:49:23.4250697+07:00","message":"all GPUs failed validation"}
+{"level":"fatal","error":"all configured GPUs failed validation for model 0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:49:23.4250697+07:00","message":"GPU validation failed"}
+{"level":"info","database":"playground.db","time":"2025-05-19T15:50:19.1048428+07:00","message":"using database"}
+{"level":"info","time":"2025-05-19T15:50:19.1096872+07:00","message":"goose: no migrations to run. current version: 20240603121202\n"}
+{"level":"info","time":"2025-05-19T15:50:19.8339752+07:00","message":"minimum claim time is 1h2m0s"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","reward":"0","time":"2025-05-19T15:50:22.6291958+07:00","message":"selected strategy model reward"}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:50:22.6291958+07:00","message":"⛏️ GOBIUS MINER STARTED! ⛏️"}
+{"level":"info","gpus":["http://58.224.7.136:30319/predictions"],"time":"2025-05-19T15:50:22.6291958+07:00","message":"initialized GPUs from config"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:50:22.6291958+07:00","message":"validating model on gpu(s)"}
+{"level":"warn","sleep_duration":1000,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:50:24.496709+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":1500,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:50:25.4989163+07:00","message":"retry request failed, retrying"}
+{"level":"warn","sleep_duration":2250,"error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","time":"2025-05-19T15:50:27.0004033+07:00","message":"retry request failed, retrying"}
+{"level":"error","tries":3,"time":"2025-05-19T15:50:29.2508903+07:00","message":"retry request failed after multiple attempts"}
+{"level":"error","error":"error adding directory locally: Post \"http://127.0.0.1:5001/api/v0/version?\": dial tcp 127.0.0.1:5001: connectex: No connection could be made because the target machine actively refused it.","gpu":0,"url":"http://58.224.7.136:30319/predictions","time":"2025-05-19T15:50:29.2508903+07:00","message":"error validating the model on GPU"}
+{"level":"error","time":"2025-05-19T15:50:29.2545257+07:00","message":"all GPUs failed validation"}
+{"level":"fatal","error":"all configured GPUs failed validation for model 0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:50:29.2545257+07:00","message":"GPU validation failed"}
+{"level":"info","database":"playground.db","time":"2025-05-19T15:50:50.7766567+07:00","message":"using database"}
+{"level":"info","time":"2025-05-19T15:50:50.7806533+07:00","message":"goose: no migrations to run. current version: 20240603121202\n"}
+{"level":"info","time":"2025-05-19T15:50:51.5013684+07:00","message":"minimum claim time is 1h2m0s"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","reward":"0","time":"2025-05-19T15:50:54.3016991+07:00","message":"selected strategy model reward"}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:50:54.3016991+07:00","message":"⛏️ GOBIUS MINER STARTED! ⛏️"}
+{"level":"info","gpus":["http://58.224.7.136:30319/predictions"],"time":"2025-05-19T15:50:54.3016991+07:00","message":"initialized GPUs from config"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","time":"2025-05-19T15:50:54.3016991+07:00","message":"validating model on gpu(s)"}
+{"level":"info","model":"0x6cb3eed9fe3f32da1910825b98bd49d537912c99410e7a35f30add137fd3b64c","cid":"0x1220e0acecb9c6187adc716f2140df8bc05dacfd253cdaa1440d04b9cff60e6babbf","time":"2025-05-19T15:50:57.6094565+07:00","message":"model CID after validation"}
+{"level":"info","gpu":0,"duration":"3.3083499s","time":"2025-05-19T15:50:57.610049+07:00","message":"GPU validation successful"}
+{"level":"info","average":"3.3083499s","fastest":"3.3083499s","validated":1,"total":1,"time":"2025-05-19T15:50:57.610049+07:00","message":"GPU validation complete"}
+{"level":"info","version":5,"time":"2025-05-19T15:50:57.9708003+07:00","message":"miner version is up to date"}
+{"level":"info","time":"2025-05-19T15:50:57.9708003+07:00","message":"GPU validation and engine version check passed"}
+{"level":"info","time":"2025-05-19T15:50:58.3100478+07:00","message":"subscribed to new headers"}
+{"level":"warn","strategy":"listen","component":"eventmanager","time":"2025-05-19T15:50:58.3100478+07:00","message":"verification sample rate 0, disabling baseline sampling"}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:50:58.3100478+07:00","message":"starting ListenStrategy..."}
+{"level":"info","time":"2025-05-19T15:50:58.3100478+07:00","message":"🚀 performing validator stake and balance checks"}
+{"level":"info","eth_bal":"0.046658184 Ξ","basetoken_bal":"1.2739586 AIUS","time":"2025-05-19T15:50:59.0606455+07:00","message":"wallet balances of owner account"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","minimum":510.53194182895646,"basetoken_bal":1.2739585580167685,"staked":520.417713196309,"pending_withdraw":0,"time":"2025-05-19T15:51:01.0290485+07:00","message":"validator staked amount"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","time":"2025-05-19T15:51:01.0290485+07:00","message":"✅ staked amount is sufficient"}
+{"level":"info","strategy":"listen","component":"eventmanager","time":"2025-05-19T15:51:01.0290485+07:00","message":"starting event manager..."}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T15:51:01.0290485+07:00","message":"starting"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T15:51:01.0290485+07:00","message":"starting"}
+{"level":"info","time":"2025-05-19T15:51:01.0290485+07:00","message":"started ipfs claim processor with interval 10s"}
+{"level":"info","strategy":"listen","component":"eventmanager","time":"2025-05-19T15:51:01.0290485+07:00","message":"event manager started"}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","rate":18446744073709551615,"time":"2025-05-19T15:51:01.0296099+07:00","message":"started solution sampling loop"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T15:51:01.0290485+07:00","message":"management loop started"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T15:51:01.0290485+07:00","message":"management loop started"}
+{"level":"info","strategy":"listen","workers":1,"time":"2025-05-19T15:51:01.0296099+07:00","message":"starting workers for listen"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T15:51:01.0296099+07:00","message":"attempting to connect subscription..."}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeTaskSubmitted","time":"2025-05-19T15:51:01.0296099+07:00","message":"started task routing loop"}
+{"level":"warn","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","time":"2025-05-19T15:51:01.0296099+07:00","message":"baseline sampling disabled, loop exiting."}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T15:51:01.0296099+07:00","message":"attempting to connect subscription..."}
+{"level":"info","strategy":"listen","time":"2025-05-19T15:51:01.0296099+07:00","message":"workers launched"}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeSolutionSubmitted","time":"2025-05-19T15:51:01.0296099+07:00","message":"stopped solution sampling loop"}
+{"level":"info","strategy":"listen","worker":0,"GPU":0,"time":"2025-05-19T15:51:01.0296099+07:00","message":"worker started"}
+{"level":"info","time":"2025-05-19T15:51:01.0301576+07:00","message":"running in headless mode; dashboard disabled"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"SolutionSubmitted","time":"2025-05-19T15:51:01.6895885+07:00","message":"connection successful"}
+{"level":"info","strategy":"listen","component":"subscriptionmanager","event":"TaskSubmitted","time":"2025-05-19T15:51:01.7815304+07:00","message":"connection successful"}
+{"level":"info","strategy":"listen","tx_hash":"0x351de1dc323c29130bf0a37934bc6fb27209da863657190b99759cc21f0c27f3","routine":"decodeTransactionWithCache","time":"2025-05-19T15:51:48.1356914+07:00","message":"initiating decode..."}
+{"level":"info","strategy":"listen","tx_hash":"0x351de1dc323c29130bf0a37934bc6fb27209da863657190b99759cc21f0c27f3","routine":"decodeTransactionWithCache","origin":"submitTask","time":"2025-05-19T15:51:48.4938124+07:00","message":"decode successful, params cached"}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeTaskSubmitted","task":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","tx_hash":"0x351de1dc323c29130bf0a37934bc6fb27209da863657190b99759cc21f0c27f3","origin":"submitTask","time":"2025-05-19T15:51:48.4943197+07:00","message":"decode successful"}
+{"level":"info","strategy":"listen","component":"eventmanager","loop":"routeTaskSubmitted","task":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","tx_hash":"0x351de1dc323c29130bf0a37934bc6fb27209da863657190b99759cc21f0c27f3","time":"2025-05-19T15:51:48.4943197+07:00","message":"routed single task"}
+{"level":"info","strategy":"listen","worker":0,"GPU":0,"source":"high-prio-block","time":"2025-05-19T15:51:48.4943197+07:00","message":"handling task"}
+{"level":"info","strategy":"listen","worker":0,"GPU":0,"task":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","time":"2025-05-19T15:51:48.4943197+07:00","message":"processing single task event"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","commitment":"0x13911e420368762643abcb5b898ec706cf5b9c576bd4af03898f429c25bb0e98","time":"2025-05-19T15:51:52.0038565+07:00","message":"sending commitment"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","nonce":2634,"txhash":"0xab240cb856a4d82d91621b977fd41ce4a7539b76e6ba509244304f1623364ea7","elapsed":"1.8573042s","time":"2025-05-19T15:51:53.8611607+07:00","message":"signal commitment tx sent, waiting for confirmation..."}
+{"level":"info","gas_used":59239,"gas_per_single commitment":59239,"tx_cost_eth":"0.00000059","txhash":"0xab240cb856a4d82d91621b977fd41ce4a7539b76e6ba509244304f1623364ea7","time":"2025-05-19T15:51:54.2196348+07:00","message":"**** single commitment gas usage *****"}
+{"level":"info","cost":"0.0000$","time":"2025-05-19T15:51:54.2204243+07:00","message":"commitment tx cost"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","time":"2025-05-19T15:51:56.1852999+07:00","message":"sending single solution"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","nonce":2635,"txhash":"0x63daa396e79add35def689d2374fd9afe0fe1a4a02d66bf1a2d1dd77134ebbc3","elapsed":"1.9422512s","time":"2025-05-19T15:51:58.1275511+07:00","message":"solution tx sent, waiting for confirmation..."}
+{"level":"info","strategy":"listen","worker":0,"GPU":0,"task":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","cid":"0x12202ee7582011ca618bd56030fa814d5c7db5f616a765176fbb9192ea8485197555","elapsed":"9.6339911s","time":"2025-05-19T15:51:58.1283108+07:00","message":"single task solved successfully"}
+{"level":"info","gas_used":206143,"gas_per_single solution":206143,"tx_cost_eth":"0.00000206","txhash":"0x63daa396e79add35def689d2374fd9afe0fe1a4a02d66bf1a2d1dd77134ebbc3","time":"2025-05-19T15:51:58.5120267+07:00","message":"**** single solution gas usage *****"}
+{"level":"info","cost":"0.0000$","time":"2025-05-19T15:51:58.5120267+07:00","message":"solution tx cost"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","txhash":"0x63daa396e79add35def689d2374fd9afe0fe1a4a02d66bf1a2d1dd77134ebbc3","block":338258939,"time":"2025-05-19T15:51:58.5120267+07:00","message":"✅ solution accepted!"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","when":"2025-05-19 16:53:58.5120267 +0700 +07 m=+3789.245844701","time":"2025-05-19T15:51:58.5131165+07:00","message":"added taskid claim to storage"}
+{"level":"info","taskid":"0xf944956bb37cd786f7d3845e11cb01575bd7eb9607d6a34b16d327960fe6c4b5","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","Cid":"12202ee7582011ca618bd56030fa814d5c7db5f616a765176fbb9192ea8485197555","time":"2025-05-19T15:51:58.868799+07:00","message":"solution information"}
+{"level":"info","claims":1,"time":"2025-05-19T15:52:01.0297061+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_price":"2406.5025$","last_base_price":"14.0702$","last_reward":"0","gas_cost":"0.0064$","total_gas_cost":"0.0064$","time":"2025-05-19T15:52:03.0748688+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.070200, min: 14.070200, ema: 14.070200","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T15:52:03.0748688+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T15:52:03.0748688+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T15:52:03.0748688+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T15:52:03.0748688+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.01$","per_hr":"0.33$","per_day":"7.86$","time":"2025-05-19T15:52:03.0748688+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T15:52:03.0755985+07:00","message":"📈 profit metrics"}
+{"level":"info","eth_price":"2406.5025$","last_base_price":"14.0702$","last_reward":"0","gas_cost":"0.0064$","total_gas_cost":"0.0064$","time":"2025-05-19T15:53:00.2593865+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.070200, min: 14.070200, ema: 14.070200","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T15:53:00.2593865+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T15:53:00.2593865+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T15:53:00.2593865+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T15:53:00.2598955+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.18$","per_day":"4.33$","time":"2025-05-19T15:53:00.2598955+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T15:53:00.2604767+07:00","message":"📈 profit metrics"}
+{"level":"info","time":"2025-05-19T15:53:01.0294059+07:00","message":"🚀 performing validator stake and balance checks"}
+{"level":"info","claims":1,"time":"2025-05-19T15:53:01.0294059+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_bal":"0.046655531 Ξ","basetoken_bal":"1.2739586 AIUS","time":"2025-05-19T15:53:01.7687643+07:00","message":"wallet balances of owner account"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","minimum":510.53194182895646,"basetoken_bal":1.2739585580167685,"staked":520.416713196309,"pending_withdraw":0,"time":"2025-05-19T15:53:03.5707618+07:00","message":"validator staked amount"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","time":"2025-05-19T15:53:03.5707618+07:00","message":"✅ staked amount is sufficient"}
+{"level":"info","eth_price":"2406.5025$","last_base_price":"14.0702$","last_reward":"0","gas_cost":"0.0064$","total_gas_cost":"0.0064$","time":"2025-05-19T15:54:00.0616235+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.070200, min: 14.070200, ema: 14.070200","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T15:54:00.0616235+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T15:54:00.0616235+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T15:54:00.0616235+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T15:54:00.0616235+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.12$","per_day":"2.95$","time":"2025-05-19T15:54:00.0616235+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T15:54:00.0616235+07:00","message":"📈 profit metrics"}
+{"level":"info","claims":1,"time":"2025-05-19T15:54:01.0294898+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_price":"2406.5025$","last_base_price":"14.0702$","last_reward":"0","gas_cost":"0.0064$","total_gas_cost":"0.0064$","time":"2025-05-19T15:55:00.1159207+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.070200, min: 14.070200, ema: 14.070200","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T15:55:00.1159207+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T15:55:00.1159207+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T15:55:00.1159207+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T15:55:00.1159207+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.09$","per_day":"2.23$","time":"2025-05-19T15:55:00.1164371+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T15:55:00.1164371+07:00","message":"📈 profit metrics"}
+{"level":"info","time":"2025-05-19T15:55:01.0293436+07:00","message":"🚀 performing validator stake and balance checks"}
+{"level":"info","claims":1,"time":"2025-05-19T15:55:01.0293436+07:00","message":"claims waiting to be processed"}
+{"level":"info","eth_bal":"0.046655531 Ξ","basetoken_bal":"1.2739586 AIUS","time":"2025-05-19T15:55:01.7408363+07:00","message":"wallet balances of owner account"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","minimum":510.53194182895646,"basetoken_bal":1.2739585580167685,"staked":520.416713196309,"pending_withdraw":0,"time":"2025-05-19T15:55:03.5635952+07:00","message":"validator staked amount"}
+{"level":"info","validator":"0x120b7032Fc480b049Ee4EC112f9caE554928Dde2","time":"2025-05-19T15:55:03.5635952+07:00","message":"✅ staked amount is sufficient"}
+{"level":"info","eth_price":"2406.5025$","last_base_price":"14.0702$","last_reward":"0","gas_cost":"0.0064$","total_gas_cost":"0.0064$","time":"2025-05-19T15:56:00.1169206+07:00","message":"⛏️ gas cost and reward metrics"}
+{"level":"info","price_ema":"max: 14.070200, min: 14.070200, ema: 14.070200","reward_ema":"max: 0.000000, min: 0.000000, ema: 0.000000","time":"2025-05-19T15:56:00.1169206+07:00","message":"⛏️ ema metrics"}
+{"level":"info","last_basefee":"0.01","basefee_ema":"max: 0.010000, min: 0.010000, ema: 0.010000","time":"2025-05-19T15:56:00.1169206+07:00","message":"⛏️ gas price metrics"}
+{"level":"info","per_min":"NaN","per_hr":"NaN","per_day":"NaN","time":"2025-05-19T15:56:00.1169206+07:00","message":"💎 aius income metrics"}
+{"level":"info","per_min":"NaN$","per_hr":"NaN$","per_day":"NaN$","time":"2025-05-19T15:56:00.1169206+07:00","message":"💰 income metrics"}
+{"level":"info","per_min":"0.00$","per_hr":"0.07$","per_day":"1.80$","time":"2025-05-19T15:56:00.1169206+07:00","message":"💸 cost metrics"}
+{"level":"info","per_min":"NaN$ (NaNΞ)","per_hr":"NaN$ (NaNΞ)","per_day":"NaN$ (NaNΞ)","time":"2025-05-19T15:56:00.1169206+07:00","message":"📈 profit metrics"}
+{"level":"info","claims":1,"time":"2025-05-19T15:56:01.0294634+07:00","message":"claims waiting to be processed"}
